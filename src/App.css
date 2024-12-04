@@ -1,0 +1,117 @@
+
+.container {
+  height: 100vh;
+  background-color: #1a202c;
+  margin-top: 0px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0;
+}
+
+.card {
+  background-color: #2d3748;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-play {
+  background-color: #4299e1;
+}
+
+.button-pause {
+  background-color: #37d2f1;
+}
+
+.button-play:hover {
+  background-color: #3182ce;
+}
+
+.button-sound {
+  background-color: #9f7aea;
+}
+
+.button-sound:hover {
+  background-color: #805ad5;
+}
+
+.button-reset {
+  background-color: #48bb78;
+}
+
+.button-reset:hover {
+  background-color: #38a169;
+}
+
+.controls {
+  display: flex;
+  margin: 20px 5px;
+  gap: 20px;
+}
+
+.speed-control {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.speed-control-label {
+  color: #ffffff;
+}
+
+.speed-control-slider {
+  width: 12rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.25rem;
+  justify-content: center;
+  grid-template-columns: repeat(20, minmax(20px, 1fr));
+  grid-template-rows: repeat(15, minmax(20px, 1fr));
+}
+
+.grid-cell {
+  aspect-ratio: 1;
+  border-radius: 0.125rem;
+  transition: background-color 0.2s ease;
+  background-color: #4a5568;
+}
+
+.bg-blue {
+  background-color: #63b3ed;
+}
+
+.bg-purple {
+  background-color: #d6bcfa;
+}
+
+.bg-pink {
+  background-color: #fbb6ce;
+}
+
+.bg-green {
+  background-color: #68d391;
+}
+
+.bg-yellow {
+  background-color: #faf089;
+}
